@@ -13,6 +13,7 @@
 		2187F89925202FCE00F7267D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2187F89825202FCE00F7267D /* Preview Assets.xcassets */; };
 		2187F8A425202FCF00F7267D /* Post_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187F8A325202FCF00F7267D /* Post_ReaderTests.swift */; };
 		2187F8AF25202FCF00F7267D /* Post_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187F8AE25202FCF00F7267D /* Post_ReaderUITests.swift */; };
+		2187F8C0252038F500F7267D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187F8BF252038F500F7267D /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		2187F8AA25202FCF00F7267D /* Post ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Post ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2187F8AE25202FCF00F7267D /* Post_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post_ReaderUITests.swift; sourceTree = "<group>"; };
 		2187F8B025202FCF00F7267D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2187F8BF252038F500F7267D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				2187F89125202FCA00F7267D /* Post_ReaderApp.swift */,
+				2187F8BF252038F500F7267D /* Post.swift */,
 				2187F89325202FCA00F7267D /* ContentView.swift */,
 				2187F89525202FCE00F7267D /* Assets.xcassets */,
 				2187F89A25202FCE00F7267D /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2187F89425202FCA00F7267D /* ContentView.swift in Sources */,
+				2187F8C0252038F500F7267D /* Post.swift in Sources */,
 				2187F89225202FCA00F7267D /* Post_ReaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
