@@ -19,6 +19,7 @@ struct ContentView: View {
             Text(post.titulo)
             Text(post.contenido)
             Text(post.autor)
+            Text("\(post.fechaCreacion)")
         }
     }
 }
@@ -29,4 +30,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
