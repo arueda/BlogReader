@@ -7,6 +7,8 @@
 
 import Foundation
 struct Post {
-    var titulo: String
-    var contenido: String
+    let titulo: String
+    let contenido: String
+    let fechaCreacion: Date
+    let autor: String
 }
